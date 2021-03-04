@@ -1,0 +1,67 @@
+@charset "ISO-8859-1";
+body{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+	background:url("doctor2.jpg");
+	background-size: cover;
+	
+}
+
+.registerbox{
+	position:absolute;
+	top:70%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	width:420px;
+	padding:40px;
+	background:rgba(0,0,0,.8);
+	box-sizing:border-box;
+	box-shadow:0 15px 25px rgba(0,0,0,.5);
+	border-radius:10px;
+}
+
+.registerbox h1{
+	margin:0 0 0 30px;
+	padding:0;
+	color:white;
+	text-align:center;
+	
+}
+
+.registerbox  input{
+	width:100%;
+	padding:10px 0;
+	font-size:16px;
+	color:white;
+	margin-bottom:30px;
+	border:none;
+	border-bottom:1px solid white;
+	outline:none;
+	background:transparent;
+	
+}
+.registerbox label{
+	position:absolute;
+	color:white;
+}
+
+.btnr input{
+	background:trasnparent;
+	border:none;
+	outline:none;
+	color:white;
+	background:blue;
+	padding:10px 20px;
+	cursor:pointer;
+	border-radius:5px;
+	
+}
+
+.registerbox h3{
+	margin:0 0 0 30px;
+	padding:0;
+	color:white;
+	text-align:center;
+	
+}
